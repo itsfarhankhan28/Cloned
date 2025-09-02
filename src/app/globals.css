@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* :root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.section1{
+  background-color: transparent;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #FFECD4 100%);
+}
+
+.carouselsection{
+  -webkit-mask-image: linear-gradient(270deg, black 40%, transparent);
+  mask-image: linear-gradient(270deg, black 40%, transparent);
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
+.animate-scroll {
+  animation: scroll var(--animation-duration, 50s) var(--animation-direction, forwards) linear infinite;
+}
+
