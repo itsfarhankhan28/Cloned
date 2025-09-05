@@ -6,7 +6,7 @@ import { InfiniteMovingCards } from "./ui/infinite-moving-cards.jsx";
 export default function Carousel() {
   return (
     <div
-      className="h-[30rem] rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
+      className="md:h-[30rem] h-[20rem] rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards items={testimonials} direction="left" speed="fast" />
     </div>
   );
