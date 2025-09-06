@@ -5,7 +5,7 @@ import GlobalSVG from './GlobalSVG'
 const GlobalCard = ({src,contentTitle,contentPara1,contentPara2}) => {
   return (
     <>
-    <div className='flex flex-col gap-3 w-[400px]'>
+    <div className='flex flex-col gap-3 md:w-[400px]'>
         <div>
             {/* <Image
             src={`${src}`}
