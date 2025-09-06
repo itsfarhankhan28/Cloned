@@ -3,14 +3,6 @@ import React from 'react'
 const Footer = () => {
 
     const Links = [
-        // {'What is Beary Local?'},
-        // {'Features'},
-        // {'Benefits'},
-        // {'Contact'},
-        // {'Support'},
-        // {'Refund Policy'},
-        // {'Terms and Conditions'},
-        // {'Privacy Policy'}
         {"id":1,"name":"What is Beary Local?"},
         {"id":2,"name":"Features"},
         {"id":3,"name":"Benefits"},
@@ -26,7 +18,7 @@ const Footer = () => {
   return (
     <>
     <footer class="bg-[#ff7622]">
-  <div class="container px-[64px] py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col text-white">
+  <div class="container md:px-[64px] px-[20px] md:py-24 py-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col text-white">
     <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left flex-col">
       <div>
         <img width={150} height={70} src="https://wordpress-1034502-4663747.cloudwaysapps.com/wp-content/uploads/2024/06/Beary-local-2-1.svg" alt=""></img>
@@ -34,7 +26,7 @@ const Footer = () => {
       <div className='pt-[20px] pb-[24px]'>
         <h1 className='text-[26px] font-[500]'>Bring exclusive offers direct to locals!</h1>
       </div>
-      <div className='flex gap-10'>
+      <div className='flex md:flex-row flex-col md:gap-10 gap-5'>
         {Links.map((link)=>{
             return(
                 <>
@@ -48,7 +40,7 @@ const Footer = () => {
     </div>
   </div>
   <div class="px-[64px] bg-[#ff7622] text-white border-t border-white">
-    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col md:flex-row md:gap-0 gap-3">
       <p class="text-sm text-center sm:text-left">© 2025 Beary Local. All rights reserved.
       </p>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">

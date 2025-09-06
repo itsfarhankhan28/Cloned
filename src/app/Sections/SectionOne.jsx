@@ -47,13 +47,13 @@ export default function SectionOne() {
                 </div>
             </div>
         </div>
-      <div className="section1 pt-[60px] pl-[80px] pr-[80px] flex gap-5 items-center justify-between">
-        <div className="flex flex-col gap-5 w-[50%]">
-            <h1 className="text-[42px]">Empower Your Business Today!</h1>
-            <p className="text-[20px] text-[#656565]">
+      <div className="section1 md:pt-[60px] pt-[50px] md:px-[80px] flex md:flex-row flex-col gap-5 items-center justify-between">
+        <div className="flex flex-col gap-5 md:w-[50%]">
+            <h1 className="md:text-[42px] text-[25px]">Empower Your Business Today!</h1>
+            <p className="md:text-[20px] text-[14px] text-[#656565]">
 			At Beary Local, we’re passionate about revitalising local retail. With a deep understanding of the challenges small businesses face, our platform bridges the gap between traditional commerce and digital capabilities, ensuring you’re never left behind.</p>
         </div>
-        <div className="w-[50%]">
+        <div className="md:w-[50%]">
             <Image
             src='/about-1.png'
             width={575}
