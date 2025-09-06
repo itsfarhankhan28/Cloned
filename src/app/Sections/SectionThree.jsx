@@ -9,7 +9,7 @@ const SectionThree = () => {
     <div className="text-gray-600 body-font">
         <div className="py-16 mx-auto flex flex-col">
             <div className=" mx-auto md:px-[80px] px-[20px]">
-            <div className="flex flex-col md:flex-row items-center md:gap-0 gap-10 bg-[#ffecd4] rounded-3xl shadow-[0px_6px_7px_2px_rgba(166,166,166,0.97)]">
+            <div className="flex flex-col md:flex-row items-center md:gap-5 gap-10 bg-[#ffecd4] rounded-3xl shadow-[0px_6px_7px_2px_rgba(166,166,166,0.97)]">
                 <div className="text-center">
                     <img src="/Benefits-for-Businesses.png" alt="image" className='md:w-[480px] md:h-[500px]'/>
                 </div>

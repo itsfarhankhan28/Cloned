@@ -8,7 +8,7 @@ const SectionFour = () => {
         <div className="md:py-16 py-10 mx-auto flex flex-col">
             <div className=" mx-auto md:px-[80px] px-[20px]">
             <div className="flex flex-col-reverse md:flex-row items-center bg-[#ffecd4] rounded-3xl shadow-[0px_6px_7px_2px_rgba(166,166,166,0.97)]">
-                <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t sm:mt-0 text-center md:text-left md:justify-start md:items-start justify-center items-center flex flex-col gap-5 md:pr-3 md:pl-0 pr-5 pl-5 md:pb-0 pb-10">
+                <div className="sm:w-2/3 md:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t sm:mt-0 text-center md:text-left md:justify-start md:items-start justify-center items-center flex flex-col gap-5 md:pr-3 pr-5 pl-5 md:pb-0 pb-10">
                 <div>
                     <img loading="lazy" decoding="async" className='md:w-[140px] md:h-[36px]' src="https://wordpress-1034502-4663747.cloudwaysapps.com/wp-content/uploads/2024/12/New_Stars-1.png"  alt=""/>
                 </div>

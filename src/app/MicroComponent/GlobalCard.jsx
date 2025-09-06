@@ -7,12 +7,6 @@ const GlobalCard = ({src,contentTitle,contentPara1,contentPara2}) => {
     <>
     <div className='flex flex-col gap-3 md:w-[400px]'>
         <div>
-            {/* <Image
-            src={`${src}`}
-            width={384}
-            height={240}
-            alt='image'
-            /> */}
             <img src={`${src}`} className='md:w-[384px] md:h-[240px]' alt="" />
         </div>
         <div className='flex gap-3'>
