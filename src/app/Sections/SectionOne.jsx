@@ -8,13 +8,13 @@ export default function SectionOne() {
     <div
       className="relative mx-auto md:mt-16 md:pt-0 pt-[50px] md:px-0 px-[20px] flex flex-col items-center justify-center">
         <div className="flex md:flex-row flex-col md:gap-0 gap-10 justify-between items-start my-3 w-full">
-            <div className="md:w-[50%] flex flex-col gap-5 md:ml-16 font-[Sans-serif]">
+            <div className="md:w-[50%] flex flex-col gap-5 md:ml-16">
                 <div>
                     <h1 className="bg-[#FFECD4] w-fit md:text-[38px] text-[30px]">Bring More Customers</h1>
-                    <h1 className="bg-[#FF7622] text-white w-fit md:text-[52px] text-[30px] font-bold font-[Sans-serif]">Through Your Door.</h1>
+                    <h1 className="bg-[#FF7622] text-white w-fit md:text-[52px] text-[30px] font-[600]">Through Your Door.</h1>
                 </div>
                 <div>
-                    <ul className="md:text-[18px] text-[14px] flex flex-col gap-3 w-fix font-[Sans-serif]">
+                    <ul className="md:text-[18px] text-[14px] flex flex-col gap-3 w-fix">
                         <li className="flex gap-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z" fill="#FF7622"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M17.0965 7.39004L9.9365 14.3L8.0365 12.27C7.6865 11.94 7.1365 11.92 6.7365 12.2C6.3465 12.49 6.2365 13 6.4765 13.41L8.7265 17.07C8.9465 17.41 9.3265 17.62 9.7565 17.62C10.1665 17.62 10.5565 17.41 10.7765 17.07C11.1365 16.6 18.0065 8.41004 18.0065 8.41004C18.9065 7.49004 17.8165 6.68004 17.0965 7.38004V7.39004Z" fill="#FFECD4"></path></svg>
                             <div>
@@ -37,7 +37,7 @@ export default function SectionOne() {
                 </div>
                 <div className="flex gap-5">
                     <GlobalButton/>
-                    <h1 className="text-[#7C7C7C] md:text-xl text-[14px]">Boost Your Sales with <br/>
+                    <h1 className="text-[#7C7C7C] md:text-xl text-[14px] font-[sans-serif]">Boost Your Sales with <br/>
                     Smart Technology!</h1>
                 </div>
             </div>
@@ -49,8 +49,8 @@ export default function SectionOne() {
         </div>
       <div className="section1 md:pt-[60px] pt-[50px] md:px-[80px] flex md:flex-row flex-col gap-5 items-center justify-between">
         <div className="flex flex-col gap-5 md:w-[50%]">
-            <h1 className="md:text-[42px] text-[25px]">Empower Your Business Today!</h1>
-            <p className="md:text-[20px] text-[14px] text-[#656565]">
+            <h1 className="md:text-[42px] text-[25px] font-[500]">Empower Your Business Today!</h1>
+            <p className="md:text-[20px] text-[14px] text-[#656565] font-[sans-serif]">
 			At Beary Local, we’re passionate about revitalising local retail. With a deep understanding of the challenges small businesses face, our platform bridges the gap between traditional commerce and digital capabilities, ensuring you’re never left behind.</p>
         </div>
         <div className="md:w-[50%]">

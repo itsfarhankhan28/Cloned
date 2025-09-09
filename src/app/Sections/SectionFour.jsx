@@ -20,7 +20,7 @@ const SectionFour = () => {
                 </div>
                 <div className="flex gap-5">
                     <GlobalButton/>
-                    <h1 className="text-[#7C7C7C] md:text-lg text-[14px]">Explore your <br/>
+                    <h1 className="text-[#7C7C7C] md:text-lg text-[14px] font-[sans-serif]">Explore your <br/>
                     neighbourhood offers!</h1>
                 </div>
                 </div>

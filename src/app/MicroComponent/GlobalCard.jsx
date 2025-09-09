@@ -14,10 +14,10 @@ const GlobalCard = ({src,contentTitle,contentPara1,contentPara2}) => {
                 <span><GlobalSVG/></span>
             </div>
             <div>
-                <h1 className='md:text-[24px] text-[20px] text-white'>
+                <h1 className='md:text-[24px] text-[20px] font-[600] text-white'>
                     {contentTitle}						
                 </h1>
-                <p className='md:text-[16px] text-[14px] text-white'>
+                <p className='md:text-[16px] text-[14px] text-white font-[sans-serif]'>
                     <span className='text-[#FF7622]'>{contentPara1}</span> {contentPara2}
                 </p>
             </div>
